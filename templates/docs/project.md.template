@@ -1,0 +1,45 @@
+# Project
+
+> 只记录当前事实；事实变化时更新本文件，不在这里保留完整历史。
+
+## Project Identity
+
+- Name: `{{PROJECT_NAME}}`
+- Repository: `{{REPOSITORY_IDENTITY}}`
+- Primary Branch: `{{PRIMARY_BRANCH}}`
+
+## Product / Purpose
+
+{{PROJECT_PURPOSE}}
+
+## Current Stage
+
+{{CURRENT_STAGE}}
+
+## Formal Implementation Directory
+
+`{{FORMAL_IMPLEMENTATION_DIR}}`
+
+## Tech Stack
+
+{{TECH_STACK}}
+
+## Git Baseline
+
+{{GIT_BASELINE}}
+
+## Runtime / Platform
+
+{{RUNTIME_PLATFORM}}
+
+## Current Validation
+
+{{CURRENT_VALIDATION}}
+
+## Current Risks
+
+{{CURRENT_RISKS}}
+
+## Backup / Recovery
+
+{{BACKUP_RECOVERY}}

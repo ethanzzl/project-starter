@@ -1,0 +1,80 @@
+# {{PROJECT_NAME}} Project Rules
+
+## Project Identity
+
+- Project: `{{PROJECT_NAME}}`
+- Primary branch: `{{PRIMARY_BRANCH}}`
+- Formal implementation directory: `{{FORMAL_IMPLEMENTATION_DIR}}`
+
+## Project Isolation
+
+- Treat this repository as an independent project.
+- Do not import facts, code, assets, paths, or decisions from unrelated projects unless the current task explicitly requests it.
+- Apply the nearest project rules when the workspace contains nested repositories.
+
+## Source of Truth
+
+Use this order when sources conflict:
+
+1. The current task
+2. Actual code and configuration
+3. This `AGENTS.md`
+4. `docs/project.md`
+5. `docs/decisions.md`
+6. `README.md`
+7. General knowledge
+
+Report meaningful conflicts instead of silently guessing.
+
+## Formal Implementation
+
+The authoritative implementation lives in `{{FORMAL_IMPLEMENTATION_DIR}}`. Confirm before modifying similarly named prototypes, archives, examples, or generated output.
+
+## Scope Rules
+
+- Make only changes required by the current task.
+- Preserve the existing architecture and technology stack unless the task explicitly changes them.
+- Do not add speculative features, dependencies, documents, or abstractions.
+
+## Minimal Change
+
+Prefer the smallest complete root-cause fix. Reuse existing patterns and tests. Do not refactor unrelated modules for style.
+
+## Data / Asset Safety
+
+- Preserve unique, editable, historical, ignored, and externally stored assets.
+- Do not delete uncertain files merely because they appear generated or untracked.
+- Back up and verify recovery before an authorized destructive change.
+- Never expose credentials, tokens, private keys, personal data, or secret values in code, logs, commits, or reports.
+
+## Verification
+
+Run the checks that are relevant to the change:
+
+```text
+{{VALIDATION_COMMANDS}}
+```
+
+Distinguish `Local Verified`, `Platform Verified`, and `Unverified`. Local success does not prove deployment, review, real-device, or third-party platform success.
+
+## Git Rules
+
+- Inspect status and diff before committing.
+- Keep unrelated user changes out of the commit.
+- Do not create or change a remote, push, deploy, release, or publish without explicit authorization.
+- Never force push or rewrite published history.
+
+## Destructive Operations
+
+Before deletion, reset, migration, overwrite, or production mutation, resolve exact targets, explain impact, and obtain any authorization not already explicit in the task. Prefer recoverable operations.
+
+## Completion Report
+
+Report:
+
+1. What changed and why
+2. Local Verified
+3. Platform Verified, if any
+4. Unverified items
+5. Known risks
+6. Commit and worktree state

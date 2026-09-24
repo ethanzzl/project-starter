@@ -1,0 +1,32 @@
+# {{PROJECT_NAME}}
+
+## 项目简介
+
+{{PROJECT_SUMMARY}}
+
+## 当前状态
+
+{{CURRENT_STATUS}}
+
+## 环境
+
+{{ENVIRONMENT_REQUIREMENTS}}
+
+## 启动
+
+```text
+{{START_COMMANDS}}
+```
+
+## 验证
+
+```text
+{{VALIDATION_COMMANDS}}
+```
+
+## 核心文档
+
+- `AGENTS.md`：项目协作与修改规则
+- `docs/project.md`：当前项目事实
+- `docs/decisions.md`：长期决策记录
+- `docs/assets.md`：重要素材与恢复策略（如适用）

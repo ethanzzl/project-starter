@@ -1,0 +1,17 @@
+# Decisions
+
+只记录会长期影响项目的决策。短期任务进度、变更日志和临时讨论不写入本文件。
+
+## D-001 — Decision Title
+
+### Decision
+
+{{DECISION}}
+
+### Reason
+
+{{DECISION_REASON}}
+
+### Consequence
+
+{{DECISION_CONSEQUENCE}}

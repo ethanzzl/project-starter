@@ -1,0 +1,27 @@
+# Assets
+
+仅在项目存在不可重建、需追踪来源或需明确恢复方式的素材时生成本文件。
+
+## Source Assets
+
+{{SOURCE_ASSETS}}
+
+## Generated Outputs
+
+{{GENERATED_OUTPUTS}}
+
+## Historical Assets
+
+{{HISTORICAL_ASSETS}}
+
+## Git Strategy
+
+{{ASSET_GIT_STRATEGY}}
+
+## External Backup
+
+{{EXTERNAL_BACKUP}}
+
+## Rebuildability
+
+{{REBUILDABILITY}}

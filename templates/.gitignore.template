@@ -1,0 +1,28 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Common caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Add technology-specific generated directories only after confirming the stack.
+# Prefer root-anchored rules such as /build/ when the directory is truly disposable.
